@@ -1,4 +1,4 @@
-# P# Pagee – Landing Page
+## Pagee – Landing Page
 
 Pagee is a simple landing page for a digital library concept.  
 This project is built as a **frontend practice** to explore layout, spacing, and responsive design using Tailwind CSS.
