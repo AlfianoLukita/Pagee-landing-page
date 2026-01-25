@@ -3,9 +3,9 @@
 Pagee is a simple landing page for a digital library concept.  
 This project is built as a **frontend practice** to explore layout, spacing, and responsive design using Tailwind CSS.
 
-The idea behind Pagee is to allow users to:
+The idea behind **Pagee** is to allow users to:
 - Explore available books
-- Read previews
+- Read previews content (concept)
 - Borrow books from nearby libraries (demo concept)
 
 > ⚠️ This is a **demo / portfolio project**, not a real product.
