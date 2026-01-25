@@ -12,7 +12,7 @@ The idea behind Pagee is to allow users to:
 
 ---
 
-## ✨ Features
+## Features
 
 - Clean and minimal landing page design
 - Hero section with clear CTA
@@ -23,7 +23,7 @@ The idea behind Pagee is to allow users to:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **HTML**
 - **Tailwind CSS (CDN)**
@@ -37,7 +37,7 @@ https://alfianolukita.github.io/Pagee-landing-page/
 
 --- 
 
-## 🎯 Purpose
+## Purpose
 
 This project demonstrates a clean and minimal landing page
 for a digital library concept, focusing on layout, spacing,
