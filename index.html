@@ -20,8 +20,10 @@
         <p class="text-lg text-gray-600 my-1 "> A simple digital library to explore books, read previews, and borrow from nearby libraries. </p>
         <input type="search" placeholder="Search Book" class="border-none outline-blue-500 p-1 rounded-lg">
         <button id="explore" class="bg-blue-500 p-2 px-3 shadow-lg  my-1 text-sm rounded-md text-white font-bold hover:bg-gray-200 hover:text-black">
-          <a href="page/explore.html"> Explore  >  </a>
-      <!--    <img src="asset/arrow.png"> -->
+          <div class="flex flex-row mx-1 gap-1">
+            <a href="page/explore.html"> Explore  </a>
+            <img src="asset/right.png">
+          </div>
         </button>
         <article>
           <p class="text-sm my-1"> 125+ books   •   4.5 rating   •   3 Library </p>
@@ -34,32 +36,100 @@
       </div>
       <section id="booklist" class="my-3">
         <div class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-6 gap-4">
-      <!-- Dummy cards -->
-          <div class="bg-white shadow rounded px-1 py-20">Book 1
+          <div>
+            <div class="bg-white shadow rounded px-1 py-20">
+              </div>
+            <article class="text-center">
+              <p> Atom </p>
+            </article>  
           </div>
-          <div class="bg-white shadow rounded px-1 py-20">Book 2</div>
-          <div class="bg-white shadow rounded px-1 py-20">Book 3</div>
-          <div class="bg-white shadow rounded px-1 py-20">Book 4</div>
-          <div class="bg-white shadow rounded px-1 py-20">Book 5</div>
-          <div class="bg-white shadow rounded px-1 py-20">Book 6</div>
-          <a href="page/explore.html" class="text-blue-500 m-2 ">More..</a>
+          <div>
+            <div class="bg-white shadow rounded px-1 py-20">
+              </div>
+            <article class="text-center">
+              <p> Atom </p>
+            </article>  
+          </div>
+          <div>
+            <div class="bg-white shadow rounded px-1 py-20">
+              </div>
+            <article class="text-center">
+              <p> Atom </p>
+            </article>  
+          </div>
+          <div>
+            <div class="bg-white shadow rounded px-1 py-20">
+              </div>
+            <article class="text-center">
+              <p> Atom </p>
+            </article>  
+          </div>
+          <div>
+            <div class="bg-white shadow rounded px-1 py-20">
+              </div>
+            <article class="text-center">
+              <p> Atom </p>
+            </article>  
+          </div>
+          <div>
+            <div class="bg-white shadow rounded px-1 py-20">
+              </div>
+            <article class="text-center">
+              <p> Atom </p>
+            </article>  
+          </div>
         </div>
+        <a class="text-blue-500 mx-2"href="page/explore.html">More...</a>
     </section>
     </section>
     <section id="howitwork" class="bg-neutral-100 p-2">
       <div class="p-4">
         <h2 class="font-bold text-lg text-center"> How It Work? </h2>
+        <div class="grid md:grid-cols-3 text-center my-2">
+          <div>
+            <h3 class="text-lg font-bold ">Explore Books</h3>
+            <p class="text-gray-500"> Browse books available in Pagee.</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold ">Read Preview </h3>
+            <p class="text-gray-500"> Check synopsis and preview pages. </p>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold ">Borrow from Library </h3>
+            <p class="text-gray-500"> Choose a library and get your borrow code. </p>
+          </div>
+        </div>
       </div>
     </section>
     <section id="whypagee">
       <div class="p-4">
         <h2 class="font-bold text-lg text-center"> Why Pagee ? </h2>
+        <div class="grid md:grid-cols-3 text-center gap-1 my-2">
+          <div>
+            <h3 class="text-lg font-bold ">Simple Interface </h3>
+            <p class="text-gray-500"> Clean and distraction-free design. </p>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold ">Easy To Use </h3>
+            <p class="text-gray-500"> Browse, preview, and borrow in minutes. </p>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold "> Built for Learning  </h3>
+            <p class="text-gray-500"> A demo project for frontend practice. </p>
+          </div>
+        </div>
       </div>
     </section>
   </main>
-  <footer class="bg-neutral-100 bottom-0 text-lg p-2 text-center">
-    @ 2026 AlfianoLukita
-    <img src="asset/instagram.png">
+  <footer class="bg-neutral-100 bottom-0 flex flex-col text-lg p-2 text-left">
+    <p class="text-gray-500"> @ 2026 pagee </p>
+    <a class="text-gray-500" href="page/explore.html">Explore</a>
+    <p class="text-gray-500"> Contact </p>
+    <div class="flex flex-row m-0.5 justify-items-end gap-1">
+      <img src="asset/instagram.png">
+      <img src="asset/instagram.png">
+      <img src="asset/instagram.png">
+    </div>
   </footer>
 </body>
 </html>
