@@ -5,7 +5,7 @@ This project is built as a **frontend practice** to explore layout, spacing, and
 
 The idea behind **Pagee** is to allow users to:
 - Explore available books
-- Read previews content (concept)
+- Read previews content (demo concept)
 - Borrow books from nearby libraries (demo concept)
 
 > ⚠️ This is a **demo / portfolio project**, not a real product.
@@ -27,8 +27,11 @@ The idea behind **Pagee** is to allow users to:
 
 - **HTML**
 - **Tailwind CSS (CDN)**
+- **No js framework**
+- **No bulid tools**
 
-No framework, no build tools — simple and lightweight.
+Built with HTML and Tailwind CSS (CDN).
+No JS framework or build process.- simple and lightweight.
 
 ---
 
