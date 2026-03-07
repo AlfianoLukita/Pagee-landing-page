@@ -4,35 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Pagee - Landing Page </title>
+  <title> Pagee | Online Library </title>
   <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
-<body class="bg-white">
-  <nav class=" bg-white shadow-sm p-2 text-black flex justify-between sticky top-0 z-50">
+<body class="bg-white font-sans">
+  <nav class=" bg-white shadow-lg p-2 text-black flex justify-between sticky top-0 z-50">
     <h3 class="font-extrabold text-lg"> Pagee </h3>
-    <input type="search" placeholder="Search Books " class="outline-gray-200 rounded-lg p-1 bg-gray-50">
-    <a class="font-bold text-gray-400"  href="page/explore.html"> Explore </a>
+    <input type="search" placeholder="Search Books" class="outline-gray-200 rounded-lg p-1 bg-gray-50">
+    <a class="font-bold text-gray-400"  href="#explore"> Explore </a>
   </nav>
   <main>
+    <img class="w-screen opacity-80" src="asset/illustration/people-in-libraru.jpg"  alt="people in library"/>
     <section id="hero">
       <div class="bg-neutral-100 p-6">
+        <div class="flex justify-center">
+        </div>
         <h1 class="font-extrabold text-5xl text-gray-900">Read, Borrow, Discover Books.</h1>
         <p class="text-lg text-gray-600 my-1 "> A simple digital library to explore books, read previews, and borrow from nearby libraries. </p>
         <input type="search" placeholder="Search Books" class="border-none outline-blue-500 p-1 rounded-lg">
         <button id="explore" class="bg-blue-500 p-2 px-3 shadow-lg  my-1 text-sm rounded-md text-white font-bold hover:bg-gray-200 hover:text-black">
-          <div class="flex flex-row mx-1 gap-1">
-            <a href="page/explore.html"> Explore  </a>
-            <img src="asset/right.png">
+          <div class="flex flex-row mx-1 gap-3">
+            <p>Explore</p>
+            <img src="asset/next.png" alt="next icon">
           </div>
         </button>
         <article>
-          <p class="text-sm my-1"> 125+ books   •   4.5 rating   •   3 Library </p>
+          <p class="text-sm my-1 font-mono"> 125+ books   •   4.5 rating   •   5+ Library </p>
         </article>
+      </div>
+    </section>
+    <section id="Collab" class="mx-auto p-2">
+      <h2 class="text-lg font-bold mt-4 ml-8 mr-8 mb-2 text-center">Partner Libraries</h2>
+      <h4 class="text-sm font-light text-center mb-8">Borrow Books from the Nearest Library, Right from Your Device</h4>
+      <div class=" grid grid-cols-4 justify-center opacity-40 gap-1 mx-auto ">
+        <img src="asset/collab/Readbook.png" alt="Readbook Logo">
+        <img src="asset/collab/leafly.png" alt="Leafly logo">
+        <img src="asset/collab/quill.png" alt="Quill logo">
+        <img src="asset/collab/biblios.png" alt="Biblios logo">
       </div>
     </section>
     <section id="Featured">
       <div class="p-4">
-        <h2 class="font-bold  text-lg text-center"> Featured Books </h2>
+        <h2 class="font-bold  text-lg text-center m-8"> Featured Books </h2>
       </div>
       <section id="booklist" class="my-3 mx-2">
         <div class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-6 gap-4">
@@ -79,60 +93,129 @@
             </article>  
           </div>
         </div>
-        <a class="text-blue-500 mx-2"href="page/explore.html">More...</a>
+        <a class="text-blue-500 mx-2"href="#explore">More...</a>
+      </section>
     </section>
-    </section>
-    <section id="howitwork" class="bg-neutral-100 p-2 text-center">
+    <section id="how-it-work" class=" bg-neutral-100 p-2 text-center">
       <div class="p-4">
-        <h2 class="font-bold text-lg text-center p-2"> How It Work? </h2>
-        <div class="grid md:grid-cols-3 text-center my-2">
+        <h2 class="font-bold text-lg text-center p-2 m-8"> How It Works ? </h2>
+        <div class="flex justify-center">
+          <img class="w-10/12 h-10/12"src="asset/illustration/male-team-illustration.png" alt="group people working together">
+        </div>
+        <div class="grid md:grid-cols-3 text-center my-2 gap-1.5">
           <div>
-            <img class="mx-auto my-4"src="asset/magnifying-glass.png">
+            <img class="mx-auto my-4"src="asset/magnifying-glass.png" alt="magnifying-glass icon">
             <h3 class="text-lg font-bold mb-2 ">Explore Books</h3>
-            <p class="text-gray-500"> Browse books available in Pagee.</p>
+            <p class="text-gray-500"> Discover a wide range of digital and physical books across different categories.</p>
           </div>
           <div>
-            <img class="mx-auto my-4" src="asset/open-book.png" />
+            <img class="mx-auto my-4" src="asset/open-book.png" alt="open-book icon"/>
             <h3 class="text-lg font-bold mb-2">Read Preview </h3>
-            <p class="text-gray-500"> Check synopsis and preview pages. </p>
+            <p class="text-gray-500"> Preview books online to find the right one before you start reading or borrowing.</p>
           </div>
           <div>
-            <img class="mx-auto my-4"src="asset/library.png" />
+            <img class="mx-auto my-4"src="asset/library.png" alt="library icon" />
             <h3 class="text-lg font-bold mb-2">Borrow from Library </h3>
-            <p class="text-gray-500"> Choose a library and get your borrow code. </p>
+            <p class="text-gray-500"> Generate a unique code and borrow physical books easily from the library. </p>
           </div>
         </div>
       </div>
     </section>
-    <section id="whypagee p-2">
+    <section id="subs" class="p-2 mb-8 text-center">
+      <h2 class="font-bold text-lg p-4 m-8">Subscription</h2>
+      <div class="grid md:grid-cols-3 gap-4 ">
+        <div class="bg-white border-neutral-100 shadow-lg rounded-lg hover:border-blue-500 border-4 px-4 py-20">
+          <h1 class="text-xl font-bold mb-3"> Pagee - free </h1>
+          <p class="text-neutral-500 mb-2"> Start your reading journey with free online access and the ability to borrow books offline.</p>
+          <button class="bg-blue-500 font-bold text-white p-1 rounded-lg shadow-lg hover:bg-gray-200 hover:text-black">Join Now</button>
+          <p class="text-neutral-400 mt-2">$0 / Free</p>
+        </div>
+        <div class="bg-white border-neutral-100 shadow-lg rounded-lg hover:border-blue-500 border-4 px-4 py-20">
+          <h1 class="text-xl font-bold mb-3"> Pagee+ </h1>
+          <p class="text-neutral-500 mb-2"> Unlock full access to all books, download your favorites, and borrow via unique codes anytime.</p>
+          <button class="bg-blue-500 font-bold text-white p-1 rounded-lg shadow-lg hover:bg-gray-200 hover:text-black">Subscribe</button>
+          
+          <p class="text-neutral-400 mt-2">$5 - $10 / Month </p>
+          <a href="#" class="text-blue-500 mt-2"> Free Trial 7 days </a>
+        </div>
+        <div class="bg-white border-neutral-100 shadow-lg rounded-lg hover:border-blue-500 border-4 px-4 py-20">
+          <h1 class="text-xl font-bold mb-3"> Pagee - Family  </h1>
+          <p class="text-neutral-500 mb-2"> Enjoy all Pagee+ features with up to 6 family members share the joy of reading together. </p>
+          <button class="bg-blue-500 font-bold text-white p-1 rounded-lg shadow-lg hover:bg-gray-200 hover:text-black">Subscribe</button>
+
+          <p class="text-neutral-400 mt-2">$8 - 12$ / Month</p>
+        </div>
+      </div>
+    </section>
+    <section id="why-pagee" class="bg-neutral-100">
       <div class="p-4">
-        <h2 class="font-bold text-lg text-center mb-2"> Why Pagee ? </h2>
+        <h2 class="font-bold text-lg text-center p-5"> Why choose Pagee ? </h2>
+        <h4 class="text-sm font-light text-center">Why thousands of users choose us</h4>
+        <div class="flex justify-center">
+          <img class="w-10/12 h-10/12 mb-5"src="asset/illustration/Reader.png" alt="people reading book"/>
+        </div>
         <div class="grid md:grid-cols-3 text-center gap-1 my-2">
           <div>
-            <h3 class="text-lg font-bold mb-2">Simple Interface </h3>
-            <p class="text-gray-500 mb-2"> Clean and distraction-free design. </p>
+            <h3 class="text-lg font-bold mb-2">Save Time & Effort  </h3>
+            <p class="text-gray-500 mb-2"> No more waiting in line browse thousands of books online or borrow physical ones with just one code </p>
           </div>
           <div>
-            <h3 class="text-lg font-bold mb-2">Easy To Use </h3>
-            <p class="text-gray-500 mb-2"> Browse, preview, and borrow in minutes. </p>
+            <h3 class="text-lg font-bold mb-2">Read Anytime,Anywhere </h3>
+            <p class="text-gray-500 mb-2"> Access your favorite books 24/7 on any device, from home, school, or on the go. </p>
           </div>
           <div>
-            <h3 class="text-lg font-bold mb-2"> Built for Learning  </h3>
-            <p class="text-gray-500 mb-2"> A demo project for frontend practice. </p>
+            <h3 class="text-lg font-bold mb-2"> Simple & Convenient </h3>
+            <p class="text-gray-500 mb-2"> All your digital books in one place, and borrowing from the library has never been easier. </p>
           </div>
         </div>
       </div>
     </section>
+    <section id="testimonial" class=" p-4 text-center">
+      <h2 class="font-bold text-lg m-8"> What Our Users Say </h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div>
+          <div class="bg-white shadow rounded px-4 py-20">
+            <h2>⭐⭐⭐⭐</h2>
+            <h2 class="text-5xl text-left font-bold "> " </h2>
+            <p>This platform makes it so easy to find and borrow books online. The interface is clean and intuitive.</p>
+            <p class="text-gray-400">— Sarah M., University Student </p>
+          </div>
+        </div>
+        <div>
+          <div class="bg-white shadow rounded px-4 py-20">
+            <h2>⭐⭐⭐⭐⭐</h2>
+            <h2 class="text-5xl text-left font-bold "> " </h2>
+            <p>significantly improves access to academic resources.</p>
+            <p class="text-gray-400">— Dr. Emily Carter, Lecturer</p>            
+          </div>
+        </div>
+        <div>
+          <div class="bg-white shadow rounded px-4 py-20">
+            <h2>⭐⭐⭐⭐</h2>
+            <h2 class="text-5xl text-left font-bold "> " </h2>
+            <p>The interface is clean and easy to navigate. Even as someone who isn’t very tech-savvy, I had no trouble searching for books and exploring the collection. It feels modern while still maintaining the atmosphere of a traditional library.</p>
+            <p class="text-gray-400">— Jason L</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="cta" class="text-center p-4 bg-white">
+      <h2 class="text-2xl font-extrabold p-2 mb-2">Ready to explore endless books?
+Start reading with Pagee today.</h2>
+      <button class="bg-blue-500 p-2  text-white rounded-lg shadow-lg font-bold hover:bg-gray-200 hover:text-black" > Start Exploring </button>
+    </section>
   </main>
-  <footer class="bg-neutral-100 bottom-0 flex flex-col text-lg p-2 text-left">
-    <p class="text-gray-500"> @ 2026 AlfianoLukita • Pagee</p>
-    <a class="text-gray-500" href="page/explore.html">Explore</a>
-    <p class="text-gray-500"> Contact </p>
+  <footer class="bg-neutral-800 text-white bottom-0 flex flex-col text-lg p-2 text-left gap-2">
+    <a href="#cta">Explore</a>
+    <a href="#sub"> Subscription </a>
+    <a href="#contact"> Contact </a>
     <div class="flex flex-row m-0.5 justify-end gap-2">
-      <img src="asset/instagram.png">
-      <img src="asset/twitter.png">
-      <img src="asset/facebook.png">
+      <img class="bg-white p-2 rounded-lg hover:bg-gray-300"src="asset/social-media/instagram.png" alt="instagram logo">
+      <img class="bg-white p-2 rounded-lg hover:bg-gray-300 " src="asset/social-media/twitter.png" alt="t
+      Twitter/X logo">
+      <img class="bg-white p-2 rounded-lg hover:bg-gray-300 " src="asset/social-media/facebook.png" alt="facebook logo">
     </div>
+    <p class="text-center"> © 2026 AlfianoLukita • Pagee</p>
   </footer>
 </body>
 </html>
